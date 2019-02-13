@@ -8,7 +8,7 @@ const App = (props) => {
                     <img style={{width: 50}} src={tweet.user.profilePic} />
                     <div className="mt-4 ml-2">
                         <b>{tweet.user.username}</b>
-                        {tweet.user.isVerified ? '<img width=15 src="twitterIcons/check-circle.svg" />' : ''}
+                        {tweet.user.isVerified ? <img style={{width: 15}} src="twitterIcons/check-circle.svg" /> : ''}
                         <p>{tweet.user.handle}</p>
                         
                     </div>
